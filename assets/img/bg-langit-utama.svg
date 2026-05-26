@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="960" y1="0" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#041120"/>
+      <stop offset=".48" stop-color="#082838"/>
+      <stop offset="1" stop-color="#0A3B40"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientTransform="translate(1040 268) rotate(90) scale(340)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9C675" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#E9C675" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="emeraldGlow" cx="0" cy="0" r="1" gradientTransform="translate(830 710) rotate(90) scale(500 780)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F8B72" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#0F8B72" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#moonGlow)"/>
+  <rect width="1920" height="1080" fill="url(#emeraldGlow)"/>
+  <g fill="#F4D88C">
+    <circle cx="228" cy="168" r="2" opacity=".68"/>
+    <circle cx="347" cy="274" r="1.5" opacity=".48"/>
+    <circle cx="510" cy="118" r="2" opacity=".56"/>
+    <circle cx="1450" cy="165" r="2" opacity=".62"/>
+    <circle cx="1582" cy="338" r="1.5" opacity=".45"/>
+    <circle cx="1770" cy="216" r="2" opacity=".6"/>
+    <circle cx="1300" cy="430" r="1.2" opacity=".47"/>
+  </g>
+  <path d="M1041 118c-65 21-106 89-90 156 16 66 83 107 148 92-23 18-52 29-84 29-76 0-138-62-138-138s62-138 138-138c9 0 18 1 26 3Z" fill="#F4D88C" opacity=".93"/>
+</svg>
